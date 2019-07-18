@@ -1,0 +1,67 @@
+{
+    "user": [
+        {
+            "id": "001",
+            "name": "Luis",
+            "image":"",
+            "contact": {
+                "email": "luisrodriguez@hotmail.com",
+                "phone": "334 555 654"
+            }, 
+            "history": {
+            "history1":{
+                "day": "4/01/2019",
+                "amount":250,
+                "sendto": "Maria",
+                "contactPhone":"333 990 445"
+            }, 
+            "history2":{
+                "day": "1/02/2019",
+                "amount":100,
+                "sendto": "Maria",
+                "contactPhone":"333 990 445"
+            },
+            "history3":{
+                "day": "2/03/2019",
+                "amount":120,
+                "sendto": "Maria",
+                "contactPhone":"333 990 445"
+            },
+            "history4":{
+                "day": "10/04/2019",
+                "amount":250,
+                "sendto": "Maria",
+                "contactPhone":"333 990 445"
+            },
+            "history5":{
+                "day": "08/05/2019",
+                "amount":200,
+                "sendto": "Maria",
+                "contactPhone":"333 990 445"
+            },
+            "history6":{
+                "day": "08/05/2019",
+                "amount":200,
+                "sendto": "Rosa",
+                "contactPhone":"333 445 098"
+            },
+            "history7":{
+                "day": "06/06/2019",
+                "amount":200,
+                "sendto": "Maria",
+                "contactPhone":"333 990 445"
+            }, 
+            "history8":{
+                "day": "06/07/2019",
+                "amount":200,
+                "sendto": "Maria",
+                "contactPhone":"333 990 445"
+            }
+            
+            }
+            
+          
+        }
+        
+    ]
+        }
