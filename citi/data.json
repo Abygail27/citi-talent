@@ -1,0 +1,100 @@
+{
+
+    "contacts": [
+        {
+            "id": "01",
+            "name": "Chuy",
+            "image":"",
+            "contact": {
+                "email": "chuy71@hotmail.com",
+                "phone": "534 814 204"
+            }
+          
+        }, {
+            "id": "02",
+            "name": "Pedro Navajas",
+            "image":"",
+            "contact": {
+                "email": "navajas@hotmail.com",
+                "phone": "534 516 264"
+            }
+          
+        }, {
+            "id": "03",
+            "name": "Patricia",
+            "image":"",
+            "contact": {
+                "email": "chuy71@hotmail.com",
+                "phone": "534 814 204"
+            }
+          
+        }, {
+            "id": "04",
+            "name": "Carl",
+            "image":"",
+            "contact": {
+                "email": "heyCarl1@hotmail.com",
+                "phone": "333 454 654"
+            }
+          
+        }, {
+            "id": "05",
+            "name": "Abby",
+            "image":"",
+            "contact": {
+                "email": "soyaby@gmail.com",
+                "phone": "343 645 656"
+            }
+          
+        }, {
+            "id": "06",
+            "name": "Karla",
+            "image":"",
+            "contact": {
+                "email": "megustaelrojo@hotmail.com",
+                "phone": "343 434 567"
+            }
+          
+        }, {
+            "id": "07",
+            "name": "Tulio",
+            "image":"",
+            "contact": {
+                "email": "cicerone@hotmail.com",
+                "phone": "233 434 434"
+            }
+          
+        }, {
+            "id": "08",
+            "name": "Lucrecio",
+            "image":"",
+            "contact": {
+                "email": "lacrimarerum@hotmail.com",
+                "phone": "343 545 544"
+            }
+          
+        }, 
+        {
+            "id": "09",
+            "name": "Ada",
+            "image":"",
+            "contact": {
+                "email": "lovelace_ada@hotmail.com",
+                "phone": "545 545 658"
+            }
+          
+        },
+        {
+            "id": "10",
+            "name": "Violeta",
+            "image":"",
+            "contact": {
+                "email": "violeta77@hotmail.com",
+                "phone": "989 454 545"
+            }
+          
+        }
+        
+        
+    ]
+        }
