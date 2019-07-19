@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import {exchangeRate} from '../actions'
 import { bindActionCreators } from 'redux'
-import Transfer from '../components/Transfer'
 import '../calculator.css'
 
 

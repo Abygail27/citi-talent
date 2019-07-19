@@ -29,6 +29,7 @@ class Nav extends Component {
                   <li><NavLink className='grey-text text-darken-3 ' to='/register'>Registro</NavLink></li>
                   <li><NavLink className='grey-text text-darken-3 ' to='/status'>Estatus</NavLink></li>
                   <li><NavLink className='grey-text text-darken-3 ' to='/calculator'>Calculadora</NavLink></li>
+                  <li><NavLink className='grey-text text-darken-3 ' to='/text'>Mensajes</NavLink></li>
                 </ul>
               </div>
             </nav>
@@ -50,6 +51,8 @@ class Nav extends Component {
                 <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/status'>Estatus</NavLink></li>
                 <li><div class='divider' /></li>
                 <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/calculator'>Calculadora</NavLink></li>
+                <li><div class='divider' /></li>
+                <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/text'>Mensaje</NavLink></li>
                 <li><div class='divider' /></li>
               </div>
             </ul>
