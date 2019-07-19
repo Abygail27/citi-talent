@@ -4,7 +4,7 @@
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background-color: #bbdefb;
+  background-color: #e3f1fc;
 }
 #background-login{
   background-color:#2b54ae ;
@@ -41,3 +41,65 @@ figure{
 }
 
 /*--------------HISTORY INFORMATION--------*/
+#target-container{
+  background-color: white;
+  width: 90%;
+  height: 24vh;
+  border-radius: 9%;
+  margin-left: 5%;
+  display: flex;
+  margin-top: -3%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#img-target{
+  background-image: url('https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/bluebird.jpg');
+  width: 51%;
+  height: 16vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#name-luis{
+  margin-top: -8%;
+  margin-left: 19%;
+}
+#button-container{
+  background-color: white;
+  width: 90%;
+  height: 15vh;
+  border-radius: 9%;
+  margin-left: 5%;
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-floating{
+  background-color:  #73B8B8;
+}
+#container-mov{
+  background-color: white;
+  width: 90%;
+  height: 43vh;
+  border-radius: 9%;
+  margin-left: 5%;
+  display: flex;
+  overflow: scroll;
+  margin-top: 4%;
+  justify-content: space-around;
+  align-items: center;
+}
+#mov{
+  margin-top: -66%;
+}
+#container-history{
+  display: flex;
+  width: 100%;
+  flex-direction: column-reverse;
+  align-items: baseline;
+  margin-left: -31%;
+}
+#id1{
+  
+}
