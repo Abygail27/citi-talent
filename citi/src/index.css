@@ -22,10 +22,16 @@ figure{
   width: -webkit-fill-available;
 left: 1%;
 right: 36.11%;
-top: 5%;
+top: 0%;
 bottom: 5%;
 }
 
 .button-container{
   position: center;
+}
+
+#input-login{
+  top: 0%;
+bottom: 7%;
+
 }
