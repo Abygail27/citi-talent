@@ -8,31 +8,19 @@ import Status from './views/Status'
 import Carousel from './views/Carousel'
 import Home from './views/Home'
 import Nav from './components/Nav'
-
+import Calculator from './views/Calculator'
 const Routes = () => {
   return (
-  // <Switch>
-  //  <Nav />
-  //   <Route path='/' exact component={Landing} />
-  //   <Route path='/register' exact component={Register} />
-  //    <Route path='/login'  component={Login} />
-  //    <Route path='/history'  component={History} />
-  //    <Route path='/home' component={Home} />
-  //    <Route path='/status' component={Status} />
-  //    <Route path='/contact'  component={Carousel} />
-
-  // </Switch>
-
     <BrowserRouter>
       <div >
         <Nav />
-        {/* <Route path ="/login" component={LoginFirebase}/> */}
         <Route path='/' exact component={Login} />
         <Route path='/history' component={History} />
         <Route path='/home' component={Home} />
         <Route path='/status' component={Status} />
         <Route path='/contact' component={Carousel} />
         <Route path='/register' component={Register} />
+        <Route path='/calculator' component={Calculator}/>
 
       </div>
     </BrowserRouter>
