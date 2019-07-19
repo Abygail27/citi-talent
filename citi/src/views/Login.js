@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from './assets/images/group_4_.png'
 import '../index.css'
 
 class Login extends Component {
@@ -7,7 +8,11 @@ class Login extends Component {
     return (
       <div id='background-login' className='row'>
       <div id='name-logo'>
-      <h4 className = "center_title">Citi <br></br>contigo</h4>
+      <div className = "header_image"
+                        style = {{
+                          background:  `url(${logo})`,
+                        }}
+                        ></div>
 
       </div>
         <figure>
