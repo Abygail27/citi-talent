@@ -10,7 +10,7 @@ class Calculator extends Component {
     this.props.exchangeRate()
   }
   render(){
-    console.log(this.props.citi.exchange.series)
+    console.log(this.props.citi.exchange)
         return (
             <div className="">
                
