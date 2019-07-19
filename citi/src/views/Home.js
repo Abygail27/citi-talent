@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import {allContactsList} from '../actions'
 import { bindActionCreators } from 'redux'
 import HomeInformation from '../components/HomeInformation'
+import '../index.css'
 
 class Home extends Component {
 
@@ -13,7 +14,7 @@ class Home extends Component {
   render(){
     console.log(this.props)
         return (
-            <div className="">
+            <div className="background-contacts">
                
                  <HomeInformation contacts={this.props.citi.contactsList}/>
             </div>

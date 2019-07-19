@@ -13,7 +13,7 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <div >
-        <Nav />
+        <Nav/>
         <Route path='/' exact component={Login} />
         <Route path='/history' component={History} />
         <Route path='/home' component={Home} />
