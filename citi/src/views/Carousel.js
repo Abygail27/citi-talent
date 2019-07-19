@@ -1,12 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Carousel extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+const Carousel = () => {
+  return (
+    <div />
+  )
 }
-export default Carousel; 
+
+export default Carousel
