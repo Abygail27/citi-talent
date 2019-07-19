@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomeInformation.css'
+import { Link } from 'react-router-dom'
 
 const HomeInformation = (props) => {
   return (
@@ -8,10 +9,7 @@ const HomeInformation = (props) => {
    <div class="row">
       <form class="col s12">
         <div class="row">
-   <div class="input-field col s10 offset-s1">
-   <input className="input_home" id="input_text" type="text" data-length="10" placeholder='Compartir link para enviar efectivo'></input>
-   
- </div>
+ 
  <div class="input-field col s10 offset-s1">
  <input className="input_home" id="input_text" type="text" data-length="10" placeholder='Buscar nombre de contacto'></input>
  
@@ -24,7 +22,7 @@ const HomeInformation = (props) => {
       
       {props.contacts && props.contacts.length > 0
         ? props.contacts.map(item => (
-        
+        <Link to ='/calculator'>
             <div class="row">
   <div class="col s12 m5">
     <div class="card-panel card-contacts white">
@@ -35,7 +33,7 @@ const HomeInformation = (props) => {
       </p>
     </div>
   </div>
-</div>
+</div></Link>
 
           
         )) : null

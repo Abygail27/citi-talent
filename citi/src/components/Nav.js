@@ -20,10 +20,10 @@ class Nav extends Component {
         <nav>
           <div className='nav-wrapper nav-mobile black text-white  '>
             <a href='#' data-target='slide-out' class='sidenav-trigger'><i className='material-icons hamburguer-menu'>menu</i></a>
-            <a href='#' className='brand-logo'><NavLink className='grey-text text-darken-3 font-nav-logo' to='/home'>Home</NavLink></a>
+            <a href='#' className='brand-logo'><NavLink className='grey-text text-darken-3 font-nav-logo' to='/home'></NavLink></a>
             <ul className='right hide-on-med-and-down'>
               <li> <NavLink className='grey-text text-darken-3' to='/home'>Home</NavLink></li>
-              <li> <NavLink className='grey-text text-darken-3 ' to='/carousel'>Carrusel</NavLink></li>
+
               <li><NavLink className='grey-text text-darken-3 ' to='/history'>Historial</NavLink></li>
               <li><NavLink className='grey-text text-darken-3 ' to='/login'>Login</NavLink></li>
               <li><NavLink className='grey-text text-darken-3 ' to='/register'>Registro</NavLink></li>
@@ -37,13 +37,11 @@ class Nav extends Component {
             <div class='background' />
           </div></li>
           <div className='options-on-side-nav'>
+          <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/login'>Login</NavLink></li>
+          <li><div class='divider' /></li>
             <li> <NavLink className='grey-text text-darken-3 font-nav-mobile' to='/home'>Home</NavLink></li>
             <li><div class='divider' /></li>
-            <li> <NavLink className='grey-text text-darken-3 font-nav-mobile' to='/carousel'>Carrusel</NavLink></li>
-            <li><div class='divider' /></li>
             <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/history'>Historial</NavLink></li>
-            <li><div class='divider' /></li>
-            <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/login'>Login</NavLink></li>
             <li><div class='divider' /></li>
             <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/register'>Registro</NavLink></li>
             <li><div class='divider' /></li>
