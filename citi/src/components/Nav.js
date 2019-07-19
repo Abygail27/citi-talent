@@ -1,28 +1,4 @@
 import React, { Component } from 'react'
-<<<<<<< HEAD
-import { Link } from 'react-router-dom'
-
-class Nav extends Component {
-  render () {
-    return (
-
-      <nav>
-        <div className='nav-wrapper'>
-          <a href='#' className='brand-logo'>Logo</a>
-          <ul className='right hide-on-med-and-down'>
-            <li> <Link className='' to='/home'>Home</Link></li>
-            <li> <Link className='' to='/history'>History</Link></li>
-            <li> <Link className='' to='/carousel'>Carrusel</Link></li>
-            <li> <Link className='' to='/login'>Login</Link></li>
-            <li> <Link className='' to='/register'>Registro</Link></li>
-            <li> <Link className='' to='/status'>Estatus</Link></li>
-          </ul>
-        </div>
-      </nav>
-
-    )
-  }
-=======
 import {NavLink} from 'react-router-dom'
 import M from 'materialize-css'
 // import Home from '../views/Home'
@@ -82,7 +58,6 @@ class Nav extends Component {
          
         )
     }
->>>>>>> refs/remotes/origin/master
 }
 
 export default Nav
