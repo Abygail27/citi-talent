@@ -14,16 +14,12 @@ handleChange = e => {
   componentWillMount =()=>{
     this.props.exchangeRate()
   }
-  
-  render(){
-   
+  render (){
         return (
           <div id='background-calculator' className='row'>
           <div id='name-logo'>
         <div className = 'money-exchange'></div>
-    
           </div>
-           
             <article id='information-contact'>
             Envía hasta $500 dólares sin comisión.
             </article>
@@ -31,7 +27,6 @@ handleChange = e => {
            <div className = 'money-exchange'>
             <p> Hoy, tipo de cambio: <br></br>$18.97 pesos mexicano.</p>
           <img src = 'https://vidatel.com.br/wp-content/uploads/2017/02/money-coin-or-button-with-dollar-sign-in-black-circle.png' width = '50px'></img>
-             
            </div>
 
           <div className = 'movements'>
@@ -39,7 +34,6 @@ handleChange = e => {
          <input className = 'movement-us'type = 'text' placeholder = 'cantidad enviada' Onchange = {this.handleChange}></input>
          <input className = 'movement-mx'type = 'text' placeholder = 'cantidad recibida' ></input>
           </div>
-         
          <div className = 'transfer'>
          <div className='container'>
         <div className='row'>

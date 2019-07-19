@@ -9,8 +9,7 @@ class Text extends Component {
         <div id='text-logo'>
           <p> Deseas escribirle un mensaje a María:</p>
         </div>
-        <textarea className='input-field col s12'></textarea>
-
+        <textarea className='input-field col s12' />
         <article>
           <button className='text-button waves-effect waves-light btn'>Enviar</button>
         </article>
