@@ -9,6 +9,8 @@ import Carousel from './views/Carousel'
 import Home from './views/Home'
 import Nav from './components/Nav'
 import Calculator from './views/Calculator'
+import Text from './views/Text'
+
 const Routes = () => {
   return (
     <BrowserRouter>
@@ -21,6 +23,7 @@ const Routes = () => {
         <Route path='/contact' component={Carousel} />
         <Route path='/register' component={Register} />
         <Route path='/calculator' component={Calculator} />
+        <Route path='/text' component={Text} />
 
       </div>
     </BrowserRouter>

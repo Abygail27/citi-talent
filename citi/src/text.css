@@ -1,0 +1,28 @@
+#text-logo{
+    background-color: white;
+    width: 90%;
+    height: 10vh;
+    border-radius: 20px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+.input-field{
+    width: 80%;
+    height: 24vh;
+    margin-left: 5%;
+}
+
+.text-button{
+    margin-left: 35%;
+    background-color: #044484;
+}
+.row .col.s12 {
+    width: 89%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    margin-left: 5%;
+    background-color: white;
+    border-color: #044484;
+}
