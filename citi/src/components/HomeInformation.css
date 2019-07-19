@@ -1,0 +1,84 @@
+body
+{
+background-color: #EEF2F3;
+}
+
+.input_home{
+
+background-color:white !important;
+border-radius: 20px !important;
+width: 232px;
+height: 29px;
+left: 85px;
+top: 95px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 2px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000 !important;
+
+}
+.input_home:focus{
+
+    border: 1.5px solid #044484 !important;
+    
+    }
+
+.card-contacts{
+
+    border-radius: 20px;
+}
+
+
+.img_style{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    left: 19px;
+
+}
+.card-panel.card-contacts{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: none;
+}
+
+.contact_name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    left: 27px;
+    position: relative;
+}
+
+.contact_phone{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    position: relative;
+    left: 61px;
+    color: rgba(0, 0, 0, 0.63);
+    bottom: 9px;
+
+
+}
+
+.header_home{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 2px;
+    
+}
+
