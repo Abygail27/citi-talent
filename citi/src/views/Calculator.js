@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import {exchangeRate} from '../actions'
 import { bindActionCreators } from 'redux'
 import Transfer from '../components/Transfer'
-import '../index.css'
+import '../calculator.css'
 
 
 class Calculator extends Component {
