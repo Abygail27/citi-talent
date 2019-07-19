@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 
 class Landing extends Component {
-    render() {
-        return (<>
+  render () {
+    return (<>
 
-            <div>
-               
-               <h1>Esto es landing</h1>
-            </div></>
-        )
-    }
+      <div>
+
+        <h1>Esto es landing</h1>
+      </div></>
+    )
+  }
 }
 
 export default Landing
