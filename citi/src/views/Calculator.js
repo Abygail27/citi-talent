@@ -1,20 +1,20 @@
 
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {allContactsList} from '../actions'
+import {exchangeRate} from '../actions'
 import { bindActionCreators } from 'redux'
 
 
-class Home extends Component {
+class Calculator extends Component {
   componentWillMount =()=>{
-    this.props.allContactsList()
+    this.props.exchangeRate()
   }
   render(){
-    console.log(this.props)
+    console.log(this.props.citi.exchange.series)
         return (
             <div className="">
                
-                 <div>Hola</div>
+                 <div>hola</div>
             </div>
         )
     }
@@ -29,9 +29,9 @@ const mapStateToProps=(state)=>{
 }
 // This component dispatch an action to store
 const mapDispatchToProps = (dispatch) => {
-return bindActionCreators({ allContactsList}, dispatch)
+return bindActionCreators({ exchangeRate}, dispatch)
 }
 
 
 
-export default connect(mapStateToProps, mapDispatchToProps) ( Home)
+export default connect(mapStateToProps, mapDispatchToProps) (Calculator)
