@@ -8,14 +8,14 @@ const HistoryInformation = (props) => {
       <article id='target-container'>
         <div>
           <h6 id='name-luis'>Hola, Luis</h6>
-          <p id='saldo'>Saldo Citi Contigo</p>
+          <p id='saldo'>Saldo CitiContigo</p>
           <h5 id='count'>$ 1200.00</h5>
         </div>
         <div id='img-target' />
       </article>
       <div id='button-container'>
         <article >
-          <button className='btn-floating btn-large waves-effect waves-light envio'><NavLink className='grey-text text-darken-4 font-nav' to='/calculator' /></button>
+          <button className='btn-floating btn-large waves-effect waves-light envio'><NavLink className='grey-text button-home text-darken-4 font-nav' to='/home'>....</NavLink></button>
           <button className='btn-floating btn-large waves-effect waves-light pagos' />
           <button className='btn-floating btn-large waves-effect waves-light ahorro' />
           <button className='btn-floating btn-large waves-effect waves-light tarjeta' />

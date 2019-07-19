@@ -11,16 +11,17 @@ nav{
   height: 8vh;
 }
 #background-login{
-  background-color:#2b54ae ;
+  background-color: #3969d3;
   width: -webkit-fill-available;
-  height: 100vh;
-  margin-top: -7%;
+  height: 120vh;
+  margin-top: -24%;
 }
 
 figure{
-  background-image: url(./logo.png);
-  width: 27%;
-  height: 10%;
+  background-image: url('./assets/citi.png');
+  width: 99%;
+  margin-left: -1%;
+  height: 54%;
   background-size: contain;
   background-repeat: repeat-y;
 }
@@ -31,11 +32,15 @@ figure{
   right: auto;
 }
 #input-login{
-  margin-top: 30%;
+  margin-top: -24% !important;
 }
 .button-login{
-  margin-left: 38%;
+  margin-left: 31% !important;
   margin-top: 3%;
+  background-color: #044484;
+  width: 40%;
+    border-radius: 20px;
+    color: white !important;
 }
 #name-logo{
   width: 50%;
@@ -138,4 +143,7 @@ figure{
   background-image: url('./assets/credit-card.png');
   background-size: contain;
   background-position: center;
+}
+.grey-text.text-darken-4 {
+  color: #21212100 !important;
 }
