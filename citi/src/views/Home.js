@@ -14,7 +14,7 @@ class Home extends Component {
     console.log(this.props)
         return (
             <div className="">
-               
+
                  <HomeInformation contacts={this.props.citi.contactsList}/>
             </div>
         )

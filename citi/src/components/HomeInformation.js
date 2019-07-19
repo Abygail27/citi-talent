@@ -10,6 +10,7 @@ const HomeInformation = (props) => {
         
               <div> 
                 {item.name}
+                {item.contact.phone}
              </div>
 
           

@@ -3,6 +3,9 @@
 *{
   font-family: 'Roboto', sans-serif;
 }
+body{
+  background-color: #bbdefb;
+}
 #background-login{
   background-color:#2b54ae ;
   width: -webkit-fill-available;
@@ -36,3 +39,5 @@ figure{
   margin-left: 31%;
   color: white;
 }
+
+/*--------------HISTORY INFORMATION--------*/
