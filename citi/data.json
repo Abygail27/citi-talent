@@ -4,7 +4,7 @@
         {
             "id": "01",
             "name": "Chuy",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/carlosperez.jpg",
             "contact": {
                 "email": "chuy71@hotmail.com",
                 "phone": "534 814 204"
@@ -13,7 +13,7 @@
         }, {
             "id": "02",
             "name": "Pedro Navajas",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/Jesus-Perez.jpg",
             "contact": {
                 "email": "navajas@hotmail.com",
                 "phone": "534 516 264"
@@ -22,7 +22,7 @@
         }, {
             "id": "03",
             "name": "Patricia",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/karlalopes.jpg",
             "contact": {
                 "email": "chuy71@hotmail.com",
                 "phone": "534 814 204"
@@ -30,8 +30,8 @@
           
         }, {
             "id": "04",
-            "name": "Carl",
-            "image":"",
+            "name": "Claudia",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/violeta.jpeg",
             "contact": {
                 "email": "heyCarl1@hotmail.com",
                 "phone": "333 454 654"
@@ -40,7 +40,7 @@
         }, {
             "id": "05",
             "name": "Abby",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/abby.jpg",
             "contact": {
                 "email": "soyaby@gmail.com",
                 "phone": "343 645 656"
@@ -49,7 +49,7 @@
         }, {
             "id": "06",
             "name": "Karla",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/tulio.png",
             "contact": {
                 "email": "megustaelrojo@hotmail.com",
                 "phone": "343 434 567"
@@ -58,7 +58,7 @@
         }, {
             "id": "07",
             "name": "Tulio",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/tulio.png",
             "contact": {
                 "email": "cicerone@hotmail.com",
                 "phone": "233 434 434"
@@ -67,7 +67,7 @@
         }, {
             "id": "08",
             "name": "Lucrecio",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/lucrecio.jpg",
             "contact": {
                 "email": "lacrimarerum@hotmail.com",
                 "phone": "343 545 544"
@@ -77,7 +77,7 @@
         {
             "id": "09",
             "name": "Ada",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/ada.jpeg",
             "contact": {
                 "email": "lovelace_ada@hotmail.com",
                 "phone": "545 545 658"
@@ -87,7 +87,7 @@
         {
             "id": "10",
             "name": "Violeta",
-            "image":"",
+            "image":"https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/violeta.jpg",
             "contact": {
                 "email": "violeta77@hotmail.com",
                 "phone": "989 454 545"
