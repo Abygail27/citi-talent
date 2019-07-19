@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import {NavLink} from 'react-router-dom'
-import M from 'materialize-css'
+import materialize from 'materialize-css'
 // import Home from '../views/Home'
 // import History from '../views/History'
 
 class Nav extends Component {
     componentDidMount () {
         var elem = document.querySelector('.sidenav')
-        var instance = M.Sidenav.init(elem, {
+        var instance = materialize.Sidenav.init(elem, {
           edge: 'left',
           inDuration: 300
     

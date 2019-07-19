@@ -8,6 +8,7 @@ import Status from './views/Status'
 import Carousel from './views/Carousel'
 import Home from './views/Home'
 import Nav from './components/Nav'
+import Landing from './views/Landing';
 
 const Routes = () => {
   return (
@@ -25,9 +26,9 @@ const Routes = () => {
 
     <BrowserRouter>
       <div >
-        <Nav />
         {/* <Route path ="/login" component={LoginFirebase}/> */}
-        <Route path='/' exact component={Login} />
+      
+        <Route path='/' exact component={Landing} />
         <Route path='/history' component={History} />
         <Route path='/home' component={Home} />
         <Route path='/status' component={Status} />
