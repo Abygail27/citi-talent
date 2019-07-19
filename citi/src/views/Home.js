@@ -24,7 +24,7 @@ class Home extends Component {
 const mapStateToProps=(state)=>{
        
   return{
-  contacts:state.contacts
+  citi:state.citi
   }
 
 }

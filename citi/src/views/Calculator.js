@@ -1,20 +1,20 @@
 
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {userInformation} from '../actions'
+import {exchangeRate} from '../actions'
 import { bindActionCreators } from 'redux'
-import HistoryInformation from '../components/HistoryInformation'
 
-class History extends Component {
+
+class Calculator extends Component {
   componentWillMount =()=>{
-    this.props.userInformation()
+    this.props.exchangeRate()
   }
   render(){
-    console.log(this.props)
+    console.log(this.props.citi.exchange.series)
         return (
             <div className="">
                
-                 <HistoryInformation users={this.props.citi.userInformation}/>
+                 <div>hola</div>
             </div>
         )
     }
@@ -29,9 +29,9 @@ const mapStateToProps=(state)=>{
 }
 // This component dispatch an action to store
 const mapDispatchToProps = (dispatch) => {
-return bindActionCreators({ userInformation}, dispatch)
+return bindActionCreators({ exchangeRate}, dispatch)
 }
 
 
 
-export default connect(mapStateToProps, mapDispatchToProps) (History)
+export default connect(mapStateToProps, mapDispatchToProps) (Calculator)
