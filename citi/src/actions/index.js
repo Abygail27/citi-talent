@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const URL = 'https://vista-b26dc.firebaseio.com/contacts.json'
 
-export const allRestaurantsList = () => {
+export const allContactsList = () => {
   const request = axios.get(`${URL}`)
     .then(res => res.data)
   return {

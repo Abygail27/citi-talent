@@ -1,18 +1,35 @@
-import React from 'react'
-import './App.css'
+import React, { Component } from 'react'
+import fire from './firebase'
+import Login from './login'
+import RouterApp from './Router'
 
-function App () {
-  return (
-    <div className='App'>
-      <header className='App-header'>
-      
-        <p>
-          landing
-        </p>
-     
-      </header>
-    </div>
-  )
+
+// Contiene opciones para pasar props y render .Falta establecer la ruta por defecto ¿Window.location?¿Cómo?
+class LoginFb extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      user: {}
+    }
+  }
+  authListener () {
+    fire.auth().onAuthStateChanged((user) => {  
+      if (user) {
+        this.setState({ user })
+      } else {
+        this.setState({ user: null })
+      }
+    })
+  }
+  componentDidMount () {
+    this.authListener()
+  }
+  render () {
+    return (
+      <div> {this.state.user ? (<RouterApp />) : (<Login />)}</div>
+    )
+  }
 }
 
-export default App
+export default LoginFb
+
