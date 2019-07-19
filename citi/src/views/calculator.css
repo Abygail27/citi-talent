@@ -1,0 +1,54 @@
+.mexico_img{
+    width: 79px;
+    height: 44px;
+    top: 112px;
+    border-radius: 19px;
+
+
+}
+
+.usa_img{
+    width: 79px;
+    height: 44px;
+    border-radius: 19px;
+    top: 50px;
+}
+
+.movement-mx, .movement-us:focus{
+
+    border: 1.5px solid #044484 !important;
+
+}
+
+.movement-mx, .movement-us{
+
+    background-color:white !important;
+    border-radius: 20px !important;
+    border-radius: 19px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px !important;
+line-height: 2px;
+}
+
+.money-exchange{
+top: 80px;
+font-weight: bold;
+}
+
+.status{
+
+font-weight: bold;
+}
+
+.simple-board{
+position: relative;
+
+bottom:10px;
+
+}
+.status_price{
+display: flex;
+align-self: flex-end;
+}

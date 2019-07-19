@@ -14,8 +14,8 @@ class Home extends Component {
   render(){
     console.log(this.props)
         return (
-            <div className="background-contacts">
-               
+            <div className="">
+
                  <HomeInformation contacts={this.props.citi.contactsList}/>
             </div>
         )

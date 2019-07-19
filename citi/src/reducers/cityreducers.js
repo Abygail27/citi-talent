@@ -5,7 +5,7 @@ export default function (state = {}, action) {
     case 'GET_EXCHANGE' :
       return { ...state, exchange: action.payload }
     case 'GET_USER':
-      return { ...state, userInformation: action.payload } 
+      return { ...state, userInformation: action.payload }
     default:
       return state
   }
