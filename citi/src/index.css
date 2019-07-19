@@ -11,8 +11,9 @@ nav{
   height: 8vh;
 }
 #background-login{
-  background-color:#2b54ae ;
+  background-color: #3969d3;
   width: -webkit-fill-available;
+<<<<<<< HEAD
   height: 100vh;
   margin-top: -9%;
 }
@@ -22,6 +23,17 @@ figure{
   width: 77%;
   height: 70%;
   background-position:center;
+=======
+  height: 120vh;
+  margin-top: -24%;
+}
+
+figure{
+  background-image: url('./assets/citi.png');
+  width: 99%;
+  margin-left: -1%;
+  height: 54%;
+>>>>>>> upstream/master
   background-size: contain;
   background-repeat: repeat-y;
   position: absolute;
@@ -38,11 +50,15 @@ bottom: 5%;
 }
 
 #input-login{
-  margin-top: 30%;
+  margin-top: -24% !important;
 }
 .button-login{
-  margin-left: 38%;
+  margin-left: 31% !important;
   margin-top: 3%;
+  background-color: #044484;
+  width: 40%;
+    border-radius: 20px;
+    color: white !important;
 }
 #name-logo{
   width: 50%;
@@ -146,7 +162,6 @@ bottom: 5%;
   background-size: contain;
   background-position: center;
 }
-
-i{
-  color: gray;
+.grey-text.text-darken-4 {
+  color: #21212100 !important;
 }

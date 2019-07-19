@@ -19,15 +19,15 @@ class Nav extends Component {
       <div className='row '>
         <nav>
           <div className='nav-wrapper nav-mobile black text-white  '>
-            <a href='#' data-target='slide-out' className='sidenav-trigger'><i className='material-icons hamburguer-menu'>menu</i></a>
-            <a href='#' className='brand-logo'><NavLink className='grey-text text-darken-3 font-nav-logo' to='/home'></NavLink></a>
+            <a href='#' data-target='slide-out' class='sidenav-trigger'><i className='material-icons hamburguer-menu'>menu</i></a>
+            <a href='#' className='brand-logo'><NavLink className='grey-text text-darken-3 font-nav-logo' to='/home' /></a>
             <ul className='right hide-on-med-and-down'>
               <li> <NavLink className='grey-text text-darken-3' to='/home'>Home</NavLink></li>
 
-              <li><NavLink className='grey-text text-darken-3 ' to='/history'>Movimientos</NavLink></li>
-              <li><NavLink className='grey-text text-darken-3 ' to='/login'>Login</NavLink></li>
-             
+              <li><NavLink className='grey-text text-darken-3 ' to='/history'>Transacciones</NavLink></li>
               <li><NavLink className='grey-text text-darken-3 ' to='/calculator'>Calculadora</NavLink></li>
+              <li><NavLink className='grey-text text-darken-3 ' to='/text'>Mensajes</NavLink></li>
+         
             </ul>
           </div>
         </nav>
@@ -36,13 +36,16 @@ class Nav extends Component {
             <div className='background' />
           </div></li>
           <div className='options-on-side-nav'>
-          <li><div className='divider' /></li>
+            <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/login'>Login</NavLink></li>
+            <li><div class='divider' /></li>
             <li> <NavLink className='grey-text text-darken-3 font-nav-mobile' to='/home'>Home</NavLink></li>
             <li><div class='divider' /></li>
             <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/history'>Movimientos</NavLink></li>
             <li><div className='divider' /></li>
             <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/calculator'>Calculadora</NavLink></li>
-            <li><div className='divider' /></li>
+            <li><div class='divider' /></li>
+            <li><NavLink className='grey-text text-darken-3 font-nav-mobile' to='/text'>Mensaje</NavLink></li>
+            <li><div class='divider' /></li>
           </div>
         </ul>
 
