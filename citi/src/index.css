@@ -4,15 +4,19 @@
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background-color: #e3f1fc;
+  background-color: #EEF2F3;
+}
+nav{
+  background-color: transparent !important;
+  height: 8vh;
 }
 #background-login{
   background-color:#2b54ae ;
   width: -webkit-fill-available;
   height: 100vh;
   margin-top: -7%;
-  
 }
+
 figure{
   background-image: url(./logo.png);
   width: 27%;
@@ -45,7 +49,8 @@ figure{
   background-color: white;
   width: 90%;
   height: 24vh;
-  border-radius: 9%;
+  box-sizing: border-box;
+  border-radius: 20px;
   margin-left: 5%;
   display: flex;
   margin-top: -3%;
@@ -68,7 +73,8 @@ figure{
   background-color: white;
   width: 90%;
   height: 15vh;
-  border-radius: 9%;
+  box-sizing: border-box;
+  border-radius: 20px;
   margin-left: 5%;
   display: flex;
   margin-top: 4%;
@@ -77,29 +83,59 @@ figure{
 }
 .btn-floating{
   background-color:  #73B8B8;
+  margin:5px;
+  
 }
 #container-mov{
   background-color: white;
   width: 90%;
   height: 43vh;
-  border-radius: 9%;
+  box-sizing: border-box;
+  border-radius: 20px;
   margin-left: 5%;
   display: flex;
-  overflow: scroll;
   margin-top: 4%;
   justify-content: space-around;
   align-items: center;
 }
 #mov{
   margin-top: -66%;
+  margin-left: 6%;
 }
 #container-history{
   display: flex;
   width: 100%;
+  height: 31vh;
+  margin-top: 0%;
+  overflow: scroll;
   flex-direction: column-reverse;
   align-items: baseline;
   margin-left: -31%;
 }
-#id1{
-  
+.black {
+  background-color: #0000 !important;
+}
+#button-link{
+  display: flex;
+  justify-content: space-around;
+}
+.envio{
+  background-image: url('./assets/paper-plane.png');
+  background-size: contain;
+    background-position: center;
+}
+.pagos{
+  background-image: url('./assets/hand.png');
+  background-size: contain;
+  background-position: center;
+}
+.ahorro{
+  background-image: url('./assets/piggybank.png');
+  background-size: contain;
+  background-position: center;
+}
+.tarjeta{
+  background-image: url('./assets/credit-card.png');
+  background-size: contain;
+  background-position: center;
 }
