@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 
 class Landing extends Component {
     render() {
-        return (
+        return (<>
+
             <div>
-                <div>Esto es landing</div>
-            </div>
+               
+               <h1>Esto es landing</h1>
+            </div></>
         )
     }
 }
