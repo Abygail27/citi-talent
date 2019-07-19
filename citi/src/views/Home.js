@@ -3,9 +3,10 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import {allContactsList} from '../actions'
 import { bindActionCreators } from 'redux'
-
+import HomeInformation from '../components/HomeInformation'
 
 class Home extends Component {
+
   componentWillMount =()=>{
     this.props.allContactsList()
   }
@@ -14,7 +15,7 @@ class Home extends Component {
         return (
             <div className="">
                
-                 <div>Hola</div>
+                 <HomeInformation contacts={this.props.citi.contactsList}/>
             </div>
         )
     }
@@ -23,7 +24,7 @@ class Home extends Component {
 const mapStateToProps=(state)=>{
        
   return{
-  contacts:state.contacts
+  citi:state.citi
   }
 
 }
