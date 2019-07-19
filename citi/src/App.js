@@ -3,7 +3,6 @@ import fire from './firebase'
 import Login from './login'
 import RouterApp from './Router'
 
-
 // Contiene opciones para pasar props y render .Falta establecer la ruta por defecto ¿Window.location?¿Cómo?
 class LoginFb extends Component {
   constructor (props) {
@@ -13,7 +12,7 @@ class LoginFb extends Component {
     }
   }
   authListener () {
-    fire.auth().onAuthStateChanged((user) => {  
+    fire.auth().onAuthStateChanged((user) => {
       if (user) {
         this.setState({ user })
       } else {
@@ -32,4 +31,3 @@ class LoginFb extends Component {
 }
 
 export default LoginFb
-

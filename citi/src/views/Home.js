@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux'
 import HomeInformation from '../components/HomeInformation'
 
 class Home extends Component {
+
   componentWillMount =()=>{
     this.props.allContactsList()
   }
@@ -13,7 +14,7 @@ class Home extends Component {
     console.log(this.props)
         return (
             <div className="">
-               
+
                  <HomeInformation contacts={this.props.citi.contactsList}/>
             </div>
         )

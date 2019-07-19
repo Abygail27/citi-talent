@@ -15,19 +15,17 @@ export const allContactsList = () => {
 
 export const exchangeRate = () => {
   const request = axios.get(`${URLBanxico}`)
-    .then (res => res.data) 
-    return{
+    .then(res => res.data)
+  return {
     type: 'GET_EXCHANGE',
     payload: request
-    }
-    
-    }
-    export const userInformation = () => {
-      const request = axios.get(`${URLUser}`)
-        .then (res => res.data) 
-        return{
-        type: 'GET_USER',
-        payload: request
-        }
-        
-        }
+  }
+}
+export const userInformation = () => {
+  const request = axios.get(`${URLUser}`)
+    .then(res => res.data)
+  return {
+    type: 'GET_USER',
+    payload: request
+  }
+}

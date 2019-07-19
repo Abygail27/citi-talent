@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './HomeInformation.css'
 
 const HomeInformation = (props) => {
   return (

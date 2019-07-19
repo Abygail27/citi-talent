@@ -20,7 +20,7 @@ const Routes = () => {
         <Route path='/status' component={Status} />
         <Route path='/contact' component={Carousel} />
         <Route path='/register' component={Register} />
-         <Route path='/calculator' component={Calculator}/>
+        <Route path='/calculator' component={Calculator} />
 
       </div>
     </BrowserRouter>

@@ -3,4 +3,139 @@
 *{
   font-family: 'Roboto', sans-serif;
 }
+body{
+  background-color: #EEF2F3;
+}
+nav{
+  background-color: transparent !important;
+  height: 8vh;
+}
+#background-login{
+  background-color:#2b54ae ;
+  width: -webkit-fill-available;
+  height: 100vh;
+  margin-top: -7%;
+}
 
+figure{
+  background-image: url(./logo.png);
+  width: 27%;
+  height: 10%;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+.row .col.s8 {
+  width: 66.6666666667%;
+  margin-left: 17%;
+  left: auto;
+  right: auto;
+}
+#input-login{
+  margin-top: 30%;
+}
+.button-login{
+  margin-left: 38%;
+  margin-top: 3%;
+}
+#name-logo{
+  width: 50%;
+  display: inline-block;
+  margin-left: 31%;
+  color: white;
+}
+
+/*--------------HISTORY INFORMATION--------*/
+#target-container{
+  background-color: white;
+  width: 90%;
+  height: 24vh;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 5%;
+  display: flex;
+  margin-top: -3%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#img-target{
+  background-image: url('https://raw.githubusercontent.com/lawrayette/citi-talent/master/citi/src/assets/bluebird.jpg');
+  width: 51%;
+  height: 16vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#name-luis{
+  margin-top: -8%;
+  margin-left: 19%;
+}
+#button-container{
+  background-color: white;
+  width: 90%;
+  height: 15vh;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 5%;
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-floating{
+  background-color:  #73B8B8;
+  margin:5px;
+  
+}
+#container-mov{
+  background-color: white;
+  width: 90%;
+  height: 43vh;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 5%;
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-around;
+  align-items: center;
+}
+#mov{
+  margin-top: -66%;
+  margin-left: 6%;
+}
+#container-history{
+  display: flex;
+  width: 100%;
+  height: 31vh;
+  margin-top: 0%;
+  overflow: scroll;
+  flex-direction: column-reverse;
+  align-items: baseline;
+  margin-left: -31%;
+}
+.black {
+  background-color: #0000 !important;
+}
+#button-link{
+  display: flex;
+  justify-content: space-around;
+}
+.envio{
+  background-image: url('./assets/paper-plane.png');
+  background-size: contain;
+    background-position: center;
+}
+.pagos{
+  background-image: url('./assets/hand.png');
+  background-size: contain;
+  background-position: center;
+}
+.ahorro{
+  background-image: url('./assets/piggybank.png');
+  background-size: contain;
+  background-position: center;
+}
+.tarjeta{
+  background-image: url('./assets/credit-card.png');
+  background-size: contain;
+  background-position: center;
+}
