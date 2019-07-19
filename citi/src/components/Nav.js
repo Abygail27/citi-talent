@@ -19,7 +19,7 @@ class Nav extends Component {
             <div className='row '>
             <nav>
               <div className='nav-wrapper nav-mobile black text-white  '>
-                <a href='#' data-target='slide-out' class='sidenav-trigger'><i className='material-icons hamburguer-menu'>menu</i></a>
+                <a href='#' data-target='slide-out' className='sidenav-trigger'><i className='material-icons hamburguer-menu'>menu</i></a>
                 <a href='#' className='brand-logo'><NavLink className='grey-text text-darken-3 font-nav-logo' to='/home'>Home</NavLink></a>
                 <ul className='right hide-on-med-and-down'>
                   <li> <NavLink className='grey-text text-darken-3' to='/home'>Home</NavLink></li>
@@ -32,9 +32,9 @@ class Nav extends Component {
                 </ul>
               </div>
             </nav>
-            <ul id='slide-out' class='sidenav'>
-              <li><div class='user-view'>
-                <div class='background' />
+            <ul id='slide-out' className='sidenav'>
+              <li><div className='user-view'>
+                <div className='background' />
               </div></li>
               <div className='options-on-side-nav'>
                 <li> <NavLink className='grey-text text-darken-3 font-nav-mobile' to='/home'>Home</NavLink></li>

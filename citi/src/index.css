@@ -11,7 +11,7 @@
   
 }
 figure{
-  background-image: url(./logo.png);
+
   width: 27%;
   height: 10%;
   background-size: contain;
@@ -115,7 +115,7 @@ img {
 width: 26px;
 height: 26px;
 left: 30px;
-top: 40px;
+top: 28px;
 }
 
 .movements{
@@ -191,7 +191,7 @@ border-radius: 10px;
 width: 325px;
 height: 222px;
 top: 406px;
-width: -webkit-fill-available;
+
 
 background: #FFFFFF;
 border-radius: 20px;
@@ -201,7 +201,7 @@ border-radius: 20px;
   position: absolute;
 width: 203px;
 height: 45px;
-left: 78px;
+left: 70px;
 top: 55px;
 
 background: #044484;
@@ -209,7 +209,7 @@ border-radius: 50px;
 position: absolute;
 width: 134px;
 height: 29px;
-left: 90px;
+left: 85px;
 top: 250px;
 
 font-family: Roboto;
@@ -217,7 +217,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 2px;
-/* or 11% */
+
 
 align-items: center;
 text-align: center;
@@ -225,3 +225,4 @@ text-align: center;
 color: #FFFFFF;
 
 }
+

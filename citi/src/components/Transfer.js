@@ -38,8 +38,7 @@ export default function SimpleTable() {
         <TableHead>
           <TableRow>
             <TableCell>Resumen</TableCell>
-           
-          
+
           </TableRow>
         </TableHead>
         <TableBody>
@@ -48,10 +47,10 @@ export default function SimpleTable() {
               <TableCell component="th" scope="row">
                 {row.name}
               </TableCell>
-              <TableCell align="right">{row.calories}</TableCell>
-              <TableCell align="right">{row.fat}</TableCell>
-              <TableCell align="right">{row.carbs}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell>
+              <TableCell align="right">{row.cantidadEnviada}</TableCell>
+              <TableCell align="right">{row.Comisiones}</TableCell>
+              <TableCell align="right">{row.total}</TableCell>
+            
             </TableRow>
           ))}
         </TableBody>

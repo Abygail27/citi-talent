@@ -8,11 +8,17 @@ import '../index.css'
 
 
 class Calculator extends Component {
+
+handleChange = e => {
+  this.setState({value:e.target.value})
+}
+
   componentWillMount =()=>{
     this.props.exchangeRate()
   }
+  
   render(){
-    console.log(this.props.citi.exchange)
+   
         return (
           <div id='background-calculator' className='row'>
           <div id='name-logo'>
@@ -25,18 +31,36 @@ class Calculator extends Component {
             </article>
 
            <div className = "money-exchange">
-             hoy, tipo de cambio:
-             <img src = "https://vidatel.com.br/wp-content/uploads/2017/02/money-coin-or-button-with-dollar-sign-in-black-circle.png" width = "50px"></img>
+            <p> hoy, tipo de cambio: <br></br>$18.97 peso mexicano.</p>
+          <img src = "https://vidatel.com.br/wp-content/uploads/2017/02/money-coin-or-button-with-dollar-sign-in-black-circle.png" width = "50px"></img>
+             
            </div>
 
           <div className = "movements">
-         <input className = "movement-us"type = "text" placeholder = "cantidad enviada"></input>
-         <input className = "movement-mx"type = "text" placeholder = "cantidad recibida"></input>
+            <p>Movimientos</p>
+         <input className = "movement-us"type = "text" placeholder = "cantidad enviada" Onchange = {this.handleChange}></input>
+         <input className = "movement-mx"type = "text" placeholder = "cantidad recibida" ></input>
           </div>
          
          <div className = "transfer">
-        
-           <button id = "send-transfer">Aceptar</button>
+         <div className="container">
+        <div className="row">
+          <div className="col s12 board">
+            <table id="simple-board">
+               <tbody style = {{
+                 fontWeight: '500',
+                 fontSize: '14px'
+               }}> Resumen
+
+           <ul>Cantidad Enviada</ul>
+           <ul>Comisiones</ul>
+           <ul>Total</ul>
+               </tbody>
+             </table>
+             <button id = "send-transfer">Enviar</button>
+          </div>
+        </div>
+      </div>
          </div>
 
           </div>
