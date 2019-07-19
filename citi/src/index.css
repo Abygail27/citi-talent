@@ -3,3 +3,36 @@
 *{
   font-family: 'Roboto', sans-serif;
 }
+#background-login{
+  background-color:#2b54ae ;
+  width: -webkit-fill-available;
+  height: 100vh;
+  margin-top: -7%;
+  
+}
+figure{
+  background-image: url(./logo.png);
+  width: 27%;
+  height: 10%;
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+.row .col.s8 {
+  width: 66.6666666667%;
+  margin-left: 17%;
+  left: auto;
+  right: auto;
+}
+#input-login{
+  margin-top: 30%;
+}
+.button-login{
+  margin-left: 38%;
+  margin-top: 3%;
+}
+#name-logo{
+  width: 50%;
+  display: inline-block;
+  margin-left: 31%;
+  color: white;
+}

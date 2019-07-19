@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux'
 
 
 class Home extends Component {
+
   componentWillMount =()=>{
     this.props.allContactsList()
   }
