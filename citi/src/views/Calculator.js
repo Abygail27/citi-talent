@@ -31,7 +31,7 @@ handleChange = e => {
 
            <div className = "money-exchange">
             <p> hoy, tipo de cambio: <br></br>$18.97 peso mexicano.</p>
-          <img src = "https://vidatel.com.br/wp-content/uploads/2017/02/money-coin-or-button-with-dollar-sign-in-black-circle.png" width = "50px"></img>
+          <img src = "https://vidatel.com.br/wp-content/uploads/2017/02/money-coin-or-button-with-dollar-sign-in-black-circle.png" alt = "dollar" width = "50px"></img>
              
            </div>
 

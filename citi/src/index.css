@@ -12,13 +12,20 @@
 }
 figure{
 
-  width: 27%;
-  height: 10%;
+  width: 77%;
+  height: 70%;
+  background-position:center;
   background-size: contain;
   background-repeat: repeat-y;
   position: absolute;
-left: 40%;
+  background-image: url('https://github.com/Abygail27/citi-talent/blob/rama-abby/citi/src/views/assets/images/group__4_.png?raw=true');
+  width: -webkit-fill-available;
+left: 1%;
 right: 36.11%;
-top: 28.44%;
-bottom: 58.91%;
+top: 5%;
+bottom: 5%;
+}
+
+.button-container{
+  position: center;
 }

@@ -11,9 +11,7 @@ class Landing extends Component {
      
                     
                         <div className = "header_image"
-                        style = {{
-                          background:  `url(${logo})`,
-                        }}
+                    
                         ></div>
              
 
